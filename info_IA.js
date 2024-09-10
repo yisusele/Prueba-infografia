@@ -59,7 +59,7 @@ function preload() {
   escenaTipos = loadImage('imagenes/nucleo1/EscenaTiposIA.png');
   escenaFuerte = loadImage('imagenes/nucleo1/IAFuerte.png');
   escenaDebil = loadImage('imagenes/nucleo1/IADebil.png');
-  Notas = loadImage('imagenes/nucleo2/notas.png');
+  Notas = loadImage('imagenes/nucleo2/NOTAS.png');
   Nota1 = loadImage('imagenes/nucleo2/nota1.png');
   Nota2 = loadImage('imagenes/nucleo2/nota2.png');
   mapaClic = loadImage('imagenes/nucleo2/MAPA.png');
@@ -288,7 +288,7 @@ function setup() {
   botonPin1 = createButton('');
   botonPin1.id('invisible');
   botonPin1.position(450, 268);
-  // botonPin1.style('background-color', 'transparent');
+  botonPin1.style('background-color', 'transparent');
   botonPin1.size(40, 60);
   botonPin1.hide();
 
@@ -302,7 +302,7 @@ function setup() {
   botonPin2 = createButton('');
   botonPin2.id('invisible');
   botonPin2.position(760, 202);
-  // botonPin2.style('background-color', 'transparent');
+  botonPin2.style('background-color', 'transparent');
   botonPin2.size(40, 60);
   botonPin2.hide();
 
@@ -316,7 +316,7 @@ function setup() {
   botonPin3 = createButton('');
   botonPin3.id('invisible');
   botonPin3.position(1060, 295);
-  // botonPin3.style('background-color', 'transparent');
+  botonPin3.style('background-color', 'transparent');
   botonPin3.size(40, 60);
   botonPin3.hide();
 
